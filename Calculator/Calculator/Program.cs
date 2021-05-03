@@ -9,6 +9,9 @@
             calculator.Sub();
             calculator.Multi();
             calculator.Divide();
+            calculator.Sinus();
+            calculator.Consinus();
+            calculator.Tanges();
         }
     }
 }
