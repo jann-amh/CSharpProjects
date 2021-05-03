@@ -1,29 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Average
 {
-    class Average
+    internal class Average
     {
-        private int sum;
+        public double Englisch { private get; set; }
 
-        public int Englisch { private get; set; }
+        public double Deutsch { private get; set; }
 
-        public int Deutsch { private get; set; }
+        public double Mathe { private get; set; }
 
-        public int Mathe { private get; set; }
-
-        public Average(int englisch, int deutsch, int mathe)
+        public Average(double englisch, double deutsch, double mathe)
         {
             Englisch = englisch;
             Deutsch = deutsch;
             Mathe = mathe;
         }
 
-        public void Add()
+        public void AverageCalculate()
         {
-            Console.WriteLine($"{Englisch + Deutsch + Mathe / 3} ")
+            double solution = (Englisch + Deutsch + Mathe) / 3;
+            Console.WriteLine($"Der Druchschnitt beträgt { solution }");
+            
+            if(solution < 4)
+            {
+                Console.WriteLine("Bestanden!");
+            }
+            else
+            {
+                Console.WriteLine("Nicht bestanden!");
+            }
         }
     }
 }

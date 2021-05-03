@@ -1,13 +1,11 @@
-﻿using System;
-
-namespace Average
+﻿namespace Average
 {
-    class AverageTester
+    internal class AverageTester
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Average average = new Average(2, 3, 2);
-            average.Add;
+            Average average = new Average(4, 6, 2);
+            average.AverageCalculate();
         }
     }
 }
