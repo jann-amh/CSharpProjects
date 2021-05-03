@@ -2,11 +2,11 @@
 
 namespace Average
 {
-    class Program
+    class AverageTester
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
         }
     }
 }
