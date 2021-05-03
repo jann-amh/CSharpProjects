@@ -30,7 +30,7 @@ namespace Calculator
         {
             Console.WriteLine($"{Number1} * {Number2} = {Number1 * Number2}");
         }
-
+        
         public void Divide()
         {
             Console.WriteLine($"{Number1} / {Number2} = {Number1 / Number2}");
