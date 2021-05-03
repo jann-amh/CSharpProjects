@@ -16,4 +16,12 @@
                 This is a basic calculator with basic functions.
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href=https://github.com/jann-amh/CSharpProjects/tree/master/Average/Average> Average Calculator</a>
+            </td>
+            <td>
+                This Program calculates the average of three numbers.
+            </td>
+        </tr>
     </table>
