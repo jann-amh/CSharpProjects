@@ -35,20 +35,5 @@ namespace Calculator
         {
             Console.WriteLine($"{Number1} / {Number2} = {Number1 / Number2}");
         }
-
-        public void Sinus()
-        {
-
-        }
-
-        public void Consinus()
-        {
-
-        }
-
-        public void Tanges()
-        {
-
-        }
     }
 }
