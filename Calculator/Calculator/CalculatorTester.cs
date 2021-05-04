@@ -8,7 +8,7 @@
             calculator.Add();
             calculator.Sub();
             calculator.Multi();
-            calculator.Divide()
+            calculator.Divide();
         }
     }
 }
