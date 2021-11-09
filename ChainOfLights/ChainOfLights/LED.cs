@@ -6,14 +6,10 @@
 
         public string Name { get; set; }
 
-        public void onPower()
+        public LED(bool power, string name)
         {
-            Power = true;
-        }
-
-        public void offPower()
-        {
-            Power = false;
+            Power = power;
+            Name = name;
         }
 
         public override string ToString()
