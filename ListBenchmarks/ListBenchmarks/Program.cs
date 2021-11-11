@@ -1,9 +1,12 @@
-﻿using ListBenchmarks;
+﻿using BenchmarkDotNet.Running;
+
+namespace ListBenchmarks;
 
 public class Program
 {
-    public static void Main(String[] args)
+    public static void Main()
     {
-        Bench bench= new();   
+        BenchmarkRunner.Run<Bench>();
+        Console.ReadLine();
     }
 }
