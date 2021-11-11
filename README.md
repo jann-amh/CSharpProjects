@@ -24,4 +24,12 @@
                 This Program calculates the average of three numbers.
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href=https://github.com/jann-amh/CSharpProjects/tree/master/ListBenchmarks> List Benchmarks</a>
+            </td>
+            <td>
+                Benchmarks of Lists and LinkedList.
+            </td>
+        </tr>
     </table>
