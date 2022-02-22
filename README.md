@@ -32,4 +32,12 @@
                 Benchmarks of Lists and LinkedList.
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href=https://github.com/jann-amh/CSharpProjects/blob/master/GameOfNim/GameOfNim/Program.cs> Game Of Nim</a>
+            </td>
+            <td>
+                Game of Nim with user input.
+            </td>
+        </tr>
     </table>
